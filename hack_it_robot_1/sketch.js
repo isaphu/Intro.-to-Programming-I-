@@ -9,28 +9,28 @@ function draw()
 	strokeWeight(6);
 
 	//robots head
-	fill(200);
+	fill(253);
 	rect(100, 100, 300, 300, 20);
 
 
 	//robots antenna
 	fill(250, 250, 0);
-	ellipse(250, 70, 60, 60);
+	ellipse(250, 70, 5, 80);
 
 	fill(200, 0, 200);
 	rect(210, 80, 80, 30);
 
 	//robots eyes
 	fill(255);
-	ellipse(175, 200, 80, 80);
-	point(175, 200);
-	ellipse(325, 200, 80, 80);
-	point(325, 200);
+	ellipse(175, 200, 20, 80);
+	point(175, 180);
+	ellipse(325, 200, 20, 80);
+	point(325, 180);
 
 
 	//robots nose
 	fill(255, 0, 0);
-	triangle(250, 220, 200, 300, 300, 300);
+	triangle(250, 220, 200, 300, 20, 300);
 
 	//robots ears
 	rect(80, 180, 30, 100);
